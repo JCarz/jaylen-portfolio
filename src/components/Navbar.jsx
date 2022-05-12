@@ -15,9 +15,9 @@ const Navbar = () => {
   const [nav, setNav] = useState(false)
   const handleClick = () => setNav(!nav)
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#14c0f1] text-gray-300">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#98B9F2] text-black-300">
       <div>
-        <img src={Logo} alt="Logo Image" style={{ width: "70px" }} />
+        <img src={Logo} alt="Logo Image" style={{ width: "100px" }} />
       </div>
 
       {/* Menu */}
@@ -39,14 +39,14 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#a41d34] flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen bg-[#141B41] flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-4xl">Home</li>
-        <li className="py-6 text-4xl">About</li>
-        <li className="py-6 text-4xl">Skills</li>
-        <li className="py-6 text-4xl">Work</li>
-        <li className="py-6 text-4xl">Contact</li>
+        <li className="py-6 text-4xl text-white">Home</li>
+        <li className="py-6 text-4xl text-white">About</li>
+        <li className="py-6 text-4xl text-white">Skills</li>
+        <li className="py-6 text-4xl text-white">Work</li>
+        <li className="py-6 text-4xl text-white">Contact</li>
       </ul>
 
       {/* Social Icons */}
