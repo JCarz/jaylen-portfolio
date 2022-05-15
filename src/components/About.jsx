@@ -1,4 +1,5 @@
 import React from "react"
+import PFP from "../assets/BrunoAndI.jpg"
 
 function About() {
   return (
@@ -16,18 +17,22 @@ function About() {
           </div>
           <div></div>
         </div>
-        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
+        <div className="max-w-[1000px] w-full grid sm:grid-cols-3 gap-8 px-4">
           <div className="sm:text-right text-4xl font-bold">
             <p>Hello. I'm Jaylen nice to meet you please look around.</p>
           </div>
           <div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-              nisi error, facere ducimus ex nobis. Numquam vel quibusdam
-              repellat modi magnam exercitationem doloribus reprehenderit
-              accusamus culpa. Dignissimos incidunt similique sint? Lorem ipsum
-              dolor sit amet consectetur adipisicing elit. Aliquam, et!
+              I am a aspiring Front end developer. I have a passion for creating
+              clean minimal and responsive webpages. I enjoy learning new
+              technologies and constantly learning new things. I just recently
+              finished my program at Algonquin Collage in Ottawa, Canada and I
+              am currently looking for a job in the field of web development.
             </p>
+          </div>
+          <div>
+            <img src={PFP} alt="BrunoAndI" className="border-4 rounded-lg" />
+            <p className="text-center">My furry friend Bruno</p>
           </div>
         </div>
       </div>
