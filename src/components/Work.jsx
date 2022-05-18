@@ -68,12 +68,11 @@ const Work = () => {
                 Android Weather API
               </span>
               <div className="pt-8 text-center">
-                <a href="/"></a>
-
-                <a href="/"></a>
-                <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
-                  Code
-                </button>
+                <a href="https://github.com/JCarz/Jaylen_Andriod_Labs/tree/week10">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
+                    Code
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -87,12 +86,11 @@ const Work = () => {
                 Feedback App
               </span>
               <div className="pt-8 text-center">
-                <a href="/"></a>
-
-                <a href="/"></a>
-                <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
-                  Code
-                </button>
+                <a href="https://github.com/JCarz/Udemy/tree/master/Feedback">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
+                    Code
+                  </button>
+                </a>
               </div>
             </div>
           </div>
