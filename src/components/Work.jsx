@@ -1,6 +1,9 @@
 import React from "react"
 import WorkImg from "../assets/workImg.jpeg"
-import RealEstate from "../assets/realestate.jpg"
+import SphereImage from "../assets/sphereIMG.jpg"
+import researchIMG from "../assets/researchIMG.jpg"
+import weatherIMG from "../assets/weatherIMG.jpg"
+import feedbackIMG from "../assets/feedbackIMG.jpg"
 
 const Work = () => {
   return (
@@ -18,51 +21,45 @@ const Work = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Grid Items */}
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${SphereImage})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effect */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-100 text-center">
               <span className="text-2xl font-bold text-white tracking-wider">
                 Java DataBank JDBC
               </span>
               <div className="pt-8 text-center">
-                <a href="/"></a>
-                <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
-                  Demo
-                </button>
-                <a href="/"></a>
-                <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
-                  Code
-                </button>
+                <a href="https://github.com/JCarz/DataBank-JSF-JPA-Skeleton">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
+                    Code
+                  </button>
+                </a>
               </div>
             </div>
           </div>
           {/* Grid Items */}
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${researchIMG})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effect */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-100 text-center">
               <span className="text-2xl font-bold text-white tracking-wider">
                 Python Research Project
               </span>
               <div className="pt-8 text-center">
-                <a href="/"></a>
-                <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
-                  Demo
-                </button>
-                <a href="/"></a>
-                <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
-                  Code
-                </button>
+                <a href="https://github.com/JCarz/ProjectLanguage-main-master">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
+                    Code
+                  </button>
+                </a>
               </div>
             </div>
           </div>
 
           <div
-            style={{ backgroundImage: `url(${RealEstate})` }}
+            style={{ backgroundImage: `url(${weatherIMG})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effect */}
@@ -72,9 +69,7 @@ const Work = () => {
               </span>
               <div className="pt-8 text-center">
                 <a href="/"></a>
-                <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
-                  Demo
-                </button>
+
                 <a href="/"></a>
                 <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
                   Code
@@ -83,19 +78,17 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${feedbackIMG})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effect */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Feedback App
               </span>
               <div className="pt-8 text-center">
                 <a href="/"></a>
-                <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
-                  Demo
-                </button>
+
                 <a href="/"></a>
                 <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
                   Code
