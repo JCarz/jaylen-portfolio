@@ -1,7 +1,5 @@
 import React from "react"
-import { Button } from "react-scroll/modules"
 import { HiArrowNarrowRight } from "react-icons/hi"
-import Link from "react-scroll/modules/components/Link"
 
 const Home = () => {
   return (

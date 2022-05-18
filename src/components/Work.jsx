@@ -1,5 +1,4 @@
 import React from "react"
-import WorkImg from "../assets/workImg.jpeg"
 import SphereImage from "../assets/sphereIMG.jpg"
 import researchIMG from "../assets/researchIMG.jpg"
 import weatherIMG from "../assets/weatherIMG.jpg"
