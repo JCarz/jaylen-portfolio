@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa"
 import { FaLinkedin } from "react-icons/fa"
 import { BsFillPersonLinesFill } from "react-icons/bs"
 import Logo from "../assets/logo.png"
-import Link from "react-scroll/modules"
+import { Link } from "react-scroll/modules"
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
