@@ -9,7 +9,7 @@ import Python from "../assets/python.png"
 import Android from "../assets/android.png"
 const Skills = () => {
   return (
-    <div name="skills" className="bg-[#293e7d] text-white w-full h-screen">
+    <div name="skills" className="bg-[#293e7d] text-white w-full h-full">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
