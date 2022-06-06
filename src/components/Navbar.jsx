@@ -1,6 +1,4 @@
 import React, { useState } from "react"
-import { FaBars } from "react-icons/fa"
-import { FaTimes } from "react-icons/fa"
 import { FaGithub } from "react-icons/fa"
 import { FaLinkedin } from "react-icons/fa"
 import { BsFillPersonLinesFill } from "react-icons/bs"
