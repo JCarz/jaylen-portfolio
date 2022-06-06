@@ -23,16 +23,16 @@ function About() {
           </div>
           <div>
             <p>
-              I am an aspiring Front end developer. I have a passion for creating
-              clean minimal and responsive webpages. I enjoy learning new
-              technologies and constantly learning new things. I just recently
-              finished my program at Algonquin Collage in Ottawa, Canada and I
-              am currently looking for a job in the field of web development.
+              I am an aspiring Front end developer. I have a passion for
+              creating clean minimal and responsive webpages. I enjoy learning
+              new technologies and constantly learning new things. I just
+              recently finished my program at Algonquin Collage in Ottawa,
+              Canada and I am currently looking for a job in the field of web
+              development.
             </p>
           </div>
           <div>
             <img src={PFP} alt="BrunoAndI" className="border-4 rounded-lg" />
-            <p className="text-center">My furry friend Bruno</p>
           </div>
         </div>
       </div>
