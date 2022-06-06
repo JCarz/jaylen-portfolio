@@ -19,11 +19,11 @@ function About() {
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-3 gap-8 px-4">
           <div className="sm:text-right text-4xl font-bold">
-            <p>Hello. I'm Jaylen nice to meet you please look around.</p>
+            <p>Hello. I'm Jaylen, nice to meet you. Please look around.</p>
           </div>
           <div>
             <p>
-              I am a aspiring Front end developer. I have a passion for creating
+              I am an aspiring Front end developer. I have a passion for creating
               clean minimal and responsive webpages. I enjoy learning new
               technologies and constantly learning new things. I just recently
               finished my program at Algonquin Collage in Ottawa, Canada and I

@@ -9,10 +9,10 @@ const Home = () => {
         {/* Title */}
         <p className="text-white">Hello, my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ffffff]">
-          Jaylen Carroll
+        Jaylen Carroll,
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#ffffff]">
-          I'm a Front End Developer.
+          Front End Developer.
         </h2>
         <p className="text-[#ffffff] py-4 max-w-[700px]">
           I'm a aspiring Front End Developer specializing in building
