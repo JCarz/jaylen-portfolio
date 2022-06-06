@@ -6,9 +6,11 @@ import { FaLinkedin } from "react-icons/fa"
 import { BsFillPersonLinesFill } from "react-icons/bs"
 import Logo from "../assets/logo.png"
 import { Link } from "react-scroll/modules"
+import { Pivot as Hamburger } from "hamburger-react"
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
+
   const handleClick = () => setNav(!nav)
   return (
     <div className="fixed w-full h-[55px] flex justify-between items-center px-4 bg-[#98B9F2]  ">
@@ -48,7 +50,7 @@ const Navbar = () => {
       </div>
       {/* hamburger */}
       <div onClick={handleClick} className="md:hidden z-10">
-        {!nav ? <FaBars /> : <FaTimes />}
+        {!nav ? <Hamburger /> : <Hamburger />}
       </div>
       {/* Mobile Menu */}
       <ul
